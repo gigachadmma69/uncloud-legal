@@ -80,7 +80,10 @@
         <p>When you subscribe, Apple processes your payment. RevenueCat receives a transaction record from Apple to verify your subscription status. We do not have access to your credit card number, billing address, or Apple ID. For details on how RevenueCat handles data, please refer to their <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</p>
 
         <h2>4. AI Coach Feature &amp; Third-Party AI Service</h2>
-        <p>Uncloud includes an optional AI Coach feature that provides personalized quit-coaching responses. When you use the AI Coach, the following <strong>non-identifying</strong> usage context is sent to <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener">OpenRouter</a> (which routes requests to <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" target="_blank" rel="noopener">DeepSeek</a>):</p>
+        <p>Uncloud includes an optional AI Coach feature that provides personalized quit-coaching responses. This feature is entirely opt-in: when you first open the AI Coach, a dedicated consent screen explains exactly what data will be shared and with whom. <strong>No data is sent until you explicitly tap "I Agree."</strong></p>
+
+        <h3>4a. What Data Is Sent</h3>
+        <p>When you use the AI Coach, the following <strong>non-identifying</strong> usage context is sent to generate a coaching response:</p>
         <ul>
             <li>Your current streak (days since last puff)</li>
             <li>Today's puff count and daily target</li>
@@ -90,9 +93,20 @@
             <li>Top trigger mood and peak craving time</li>
             <li>Your conversation messages with the AI Coach</li>
         </ul>
-        <p><strong>No personal identifiers</strong> (name, email, device ID, location, or Apple ID) are sent to these services. The AI Coach will not function unless you explicitly consent to this data sharing when first using the feature.</p>
+        <p><strong>No personal identifiers</strong> (name, email, device ID, location, or Apple ID) are ever sent to these services.</p>
+
+        <h3>4b. How This Data Is Collected</h3>
+        <p>All of the above data is either entered by you directly (motivation, vaping type, conversation messages) or derived from your usage logs stored on your device (streak, puff count, money saved, trigger patterns). This data is collected only at the moment you send a message in the AI Coach — it is not collected in the background or at any other time.</p>
+
+        <h3>4c. Who Receives Your Data</h3>
+        <p>Your data is sent to <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener">OpenRouter</a> (an API routing service), which forwards it to <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" target="_blank" rel="noopener">DeepSeek</a> (an AI model provider) to generate coaching responses. The data is used solely to produce a response and is not used for advertising, profiling, or any purpose unrelated to generating your coaching reply.</p>
+
+        <h3>4d. Third-Party Data Protection</h3>
+        <p>Both OpenRouter and DeepSeek maintain privacy policies that provide protection for user data. We have reviewed their policies and confirmed that they do not sell user data or use it for advertising. For full details, see the <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener">OpenRouter Privacy Policy</a> and <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" target="_blank" rel="noopener">DeepSeek Privacy Policy</a>.</p>
+
+        <h3>4e. Consent and Revocation</h3>
+        <p>The AI Coach will not function unless you explicitly consent to data sharing via the in-app consent screen. You may revoke your consent at any time in the app's Settings, which immediately stops all data transmission to the AI service.</p>
         <p>Your AI Coach conversation history is stored locally on your device and is not accessible to us.</p>
-        <p>OpenRouter and DeepSeek process this data to generate coaching responses. For details on how they handle data, see the <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener">OpenRouter Privacy Policy</a> and <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" target="_blank" rel="noopener">DeepSeek Privacy Policy</a>.</p>
 
         <h2>5. Other Third-Party SDKs</h2>
         <p>The only other third-party SDK integrated into Uncloud is RevenueCat, used solely for subscription management. We do not use any analytics, advertising, crash reporting, or tracking SDKs.</p>
@@ -108,6 +122,7 @@
         <p><a href="mailto:support@uncloud.app">support@uncloud.app</a></p>
 
         <div class="footer">
+            <p>See also: <a href="https://gigachadmma69.github.io/uncloud-legal/terms.html">Terms of Service</a></p>
             <p>&copy; 2026 Uncloud. All rights reserved.</p>
         </div>
     </div>
